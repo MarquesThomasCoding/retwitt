@@ -1,0 +1,64 @@
+.form-log-sign-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-log-sign {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-log-sign form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-log-sign input {
+    color: white;
+    background-color: #061923;
+    border: none;
+    box-shadow: 2px 2px 0px 2px #04121a;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', 'sans-serif';
+    color: white;
+    opacity: 0.5;
+}
+
+.form-log-sign button {
+    font-family: 'Montserrat', 'sans-serif';
+    margin-left: 2px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(to left, #04121a 50%, #0b8cd6 50%) right;
+    border: none;
+    border-radius: 10px;
+    background-size: 200% 100%;
+    transition: all .5s ease-in;
+}
+
+.form-log-sign button:hover {
+    background-position: left;
+}
+
+.form-log-sign a {
+    margin: 10px;
+    color: #0b8cd6;
+    text-decoration: none;
+}
+
+.form-log-sign a:hover {
+    text-decoration: underline;
+}
