@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : dim. 21 mai 2023 à 13:30
+-- Généré le : dim. 21 mai 2023 à 13:40
 -- Version du serveur : 8.0.30
 -- Version de PHP : 8.1.10
 
@@ -44,7 +44,8 @@ INSERT INTO `twitts` (`id`, `content`, `media`, `tag`, `date`, `userid`) VALUES
 (41, 'Ceci est le premier post de ce réseau social ! ', '', 'innovation', '2023-05-16 16:56:52', 2),
 (42, 'Extra le dernier voyage que j\'ai fais !', '', 'voyage', '2023-05-16 16:57:08', 2),
 (43, 'Trop hâte de tester le nouveau Zelda : Tears of the Kingdom !!', '', 'jeu-video', '2023-05-16 16:57:49', 5),
-(44, 'Vous aussi vous aimez lire ?', '', 'lecture', '2023-05-16 16:58:11', 2);
+(44, 'Vous aussi vous aimez lire ?', '', 'lecture', '2023-05-16 16:58:11', 2),
+(63, 'Regardez l\'idée de construction sur Minecraft que j\'ai eu !', 'idee_minecraft.jpg', 'jeu-video', '2023-05-21 15:38:56', 2);
 
 -- --------------------------------------------------------
 
@@ -93,7 +94,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT pour la table `twitts`
 --
 ALTER TABLE `twitts`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT pour la table `user`
